@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Keep only things useful for docs or build
+!.gitignore
+!PKGBUILD
+!README.md
+!LICENSE
