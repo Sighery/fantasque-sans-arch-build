@@ -1,8 +1,14 @@
-# Ignore everything
-*
+*.tar
+*.tar.*
+*.jar
+*.exe
+*.msi
+*.zip
+*.tgz
+*.log
+*.log.*
+*.sig
 
-# Keep only things useful for docs or build
-!.gitignore
-!PKGBUILD
-!README.md
-!LICENSE
+pkg/
+src/
+output/
